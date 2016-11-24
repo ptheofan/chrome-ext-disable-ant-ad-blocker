@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Disable AdsBlocker Modal on Business Insider",
+  "version": "0.1",
+  "content_scripts": [
+      {
+        "matches": [
+          "http://www.businessinsider.com/*"
+        ],
+        "js": ["jquery-3.1.1.min.js", "bi-disabler.js"]
+      }
+    ]
+}
